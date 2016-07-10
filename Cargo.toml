@@ -1,0 +1,12 @@
+[package]
+name = "carbine-shell"
+version = "0.0.1"
+authors = ["Ben Elliott <benjam.elliott@gmail.com>"]
+
+[dependencies]
+libc = { version = "0.2", default-features = false }
+shlex = "0.1.1"
+
+[[bin]]
+name = "cash"
+path = "src/main.rs"
